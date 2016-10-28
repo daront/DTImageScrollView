@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F58D5C61DC3855100C40BDF /* DTImageScrollView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1F58D5C51DC3855100C40BDF /* DTImageScrollView.podspec */; };
 		1F5FB3981D4F388100B8D9EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5FB3971D4F388100B8D9EF /* AppDelegate.swift */; };
 		1F5FB39A1D4F388100B8D9EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5FB3991D4F388100B8D9EF /* ViewController.swift */; };
 		1F5FB39D1D4F388100B8D9EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5FB39B1D4F388100B8D9EF /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		0F0EF4663E30ABABB4ACA28A /* Pods-DTImageScrollViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTImageScrollViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTImageScrollViewDemo/Pods-DTImageScrollViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1F58D5C51DC3855100C40BDF /* DTImageScrollView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DTImageScrollView.podspec; sourceTree = "<group>"; };
 		1F5FB3941D4F388100B8D9EF /* DTImageScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTImageScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5FB3971D4F388100B8D9EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F5FB3991D4F388100B8D9EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		1F5FB3871D4F383600B8D9EF = {
 			isa = PBXGroup;
 			children = (
+				1F58D5C51DC3855100C40BDF /* DTImageScrollView.podspec */,
 				1F5FB38F1D4F386500B8D9EF /* DTImageScrollView */,
 				1F5FB3961D4F388100B8D9EF /* DTImageScrollViewDemo */,
 				1F5FB3951D4F388100B8D9EF /* Products */,
@@ -161,6 +164,7 @@
 			files = (
 				1F5FB3A21D4F388100B8D9EF /* LaunchScreen.storyboard in Resources */,
 				1F5FB39F1D4F388100B8D9EF /* Assets.xcassets in Resources */,
+				1F58D5C61DC3855100C40BDF /* DTImageScrollView.podspec in Resources */,
 				1F5FB39D1D4F388100B8D9EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
