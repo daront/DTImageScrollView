@@ -19,11 +19,11 @@ public class DTImageScrollView: UIView, UIScrollViewDelegate {
 
     let scrollView = UIScrollView()
     let pageControl = UIPageControl()
-    var placeholderImage: UIImage?
+    public var placeholderImage: UIImage?
     
     weak var datasource: DTImageScrollViewDatasource?
     
-    func show() {
+    public func show() {
         setup()
     }
     
@@ -96,7 +96,7 @@ public class DTImageScrollView: UIView, UIScrollViewDelegate {
         // layoutIfNeeded()
     }
     
-    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+    public func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
         // update pageController
         let pageWidth = scrollView.frame.size.width
         let fractionalPage = Float(scrollView.contentOffset.x / pageWidth)
