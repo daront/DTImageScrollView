@@ -9,13 +9,13 @@
 import UIKit
 import AlamofireImage
 
-protocol DTImageScrollViewDatasource: class {
+public protocol DTImageScrollViewDatasource: class {
     //func imageForIndex(index:Int) -> UIImage
     func imageURLForIndex(index:Int) -> NSURL
     func numberOfImages() -> Int
 }
 
-class DTImageScrollView: UIView, UIScrollViewDelegate {
+public class DTImageScrollView: UIView, UIScrollViewDelegate {
 
     let scrollView = UIScrollView()
     let pageControl = UIPageControl()
