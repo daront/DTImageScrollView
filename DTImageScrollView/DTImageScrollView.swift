@@ -17,11 +17,11 @@ public protocol DTImageScrollViewDatasource: class {
 
 public class DTImageScrollView: UIView, UIScrollViewDelegate {
 
-    let scrollView = UIScrollView()
-    let pageControl = UIPageControl()
+    public let scrollView = UIScrollView()
+    public let pageControl = UIPageControl()
     public var placeholderImage: UIImage?
     
-    weak var datasource: DTImageScrollViewDatasource?
+    public weak var datasource: DTImageScrollViewDatasource?
     
     public func show() {
         setup()
@@ -48,7 +48,7 @@ public class DTImageScrollView: UIView, UIScrollViewDelegate {
         reloadPhotos()
     }
     
-    func reloadPhotos() {
+    public func reloadPhotos() {
         // remove old ImageViews (if any)
         for view in self.scrollView.subviews {
             view.removeFromSuperview()
