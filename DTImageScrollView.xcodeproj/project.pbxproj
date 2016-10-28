@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5FB3981D4F388100B8D9EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5FB3971D4F388100B8D9EF /* AppDelegate.swift */; };
+		1F5FB39A1D4F388100B8D9EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5FB3991D4F388100B8D9EF /* ViewController.swift */; };
+		1F5FB39D1D4F388100B8D9EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5FB39B1D4F388100B8D9EF /* Main.storyboard */; };
+		1F5FB39F1D4F388100B8D9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5FB39E1D4F388100B8D9EF /* Assets.xcassets */; };
+		1F5FB3A21D4F388100B8D9EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5FB3A01D4F388100B8D9EF /* LaunchScreen.storyboard */; };
+		1F5FB3A81D4F389C00B8D9EF /* DTImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5FB3A71D4F389C00B8D9EF /* DTImageScrollView.swift */; };
+		52EB0CD14240BA6A1DD5BD24 /* Pods_DTImageScrollViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC206F0AEC2F31F2C122A414 /* Pods_DTImageScrollViewDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F0EF4663E30ABABB4ACA28A /* Pods-DTImageScrollViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTImageScrollViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTImageScrollViewDemo/Pods-DTImageScrollViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1F5FB3941D4F388100B8D9EF /* DTImageScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTImageScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5FB3971D4F388100B8D9EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F5FB3991D4F388100B8D9EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F5FB39C1D4F388100B8D9EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F5FB39E1D4F388100B8D9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F5FB3A11D4F388100B8D9EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F5FB3A31D4F388100B8D9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F5FB3A71D4F389C00B8D9EF /* DTImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTImageScrollView.swift; sourceTree = "<group>"; };
+		F633E7E25E5431BD11D13987 /* Pods-DTImageScrollViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTImageScrollViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTImageScrollViewDemo/Pods-DTImageScrollViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FC206F0AEC2F31F2C122A414 /* Pods_DTImageScrollViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTImageScrollViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F5FB3911D4F388100B8D9EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EB0CD14240BA6A1DD5BD24 /* Pods_DTImageScrollViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00EB6B32ED541459AA2A55E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F633E7E25E5431BD11D13987 /* Pods-DTImageScrollViewDemo.debug.xcconfig */,
+				0F0EF4663E30ABABB4ACA28A /* Pods-DTImageScrollViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F5FB3871D4F383600B8D9EF = {
+			isa = PBXGroup;
+			children = (
+				1F5FB38F1D4F386500B8D9EF /* DTImageScrollView */,
+				1F5FB3961D4F388100B8D9EF /* DTImageScrollViewDemo */,
+				1F5FB3951D4F388100B8D9EF /* Products */,
+				00EB6B32ED541459AA2A55E4 /* Pods */,
+				62A50BCEBD7D40BC35C201B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F5FB38F1D4F386500B8D9EF /* DTImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				1F5FB3A71D4F389C00B8D9EF /* DTImageScrollView.swift */,
+			);
+			path = DTImageScrollView;
+			sourceTree = "<group>";
+		};
+		1F5FB3951D4F388100B8D9EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F5FB3941D4F388100B8D9EF /* DTImageScrollViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F5FB3961D4F388100B8D9EF /* DTImageScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1F5FB3971D4F388100B8D9EF /* AppDelegate.swift */,
+				1F5FB3991D4F388100B8D9EF /* ViewController.swift */,
+				1F5FB39B1D4F388100B8D9EF /* Main.storyboard */,
+				1F5FB39E1D4F388100B8D9EF /* Assets.xcassets */,
+				1F5FB3A01D4F388100B8D9EF /* LaunchScreen.storyboard */,
+				1F5FB3A31D4F388100B8D9EF /* Info.plist */,
+			);
+			path = DTImageScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		62A50BCEBD7D40BC35C201B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC206F0AEC2F31F2C122A414 /* Pods_DTImageScrollViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F5FB3931D4F388100B8D9EF /* DTImageScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F5FB3A41D4F388100B8D9EF /* Build configuration list for PBXNativeTarget "DTImageScrollViewDemo" */;
+			buildPhases = (
+				A65A7256763A435F4ABDE174 /* [CP] Check Pods Manifest.lock */,
+				1F5FB3901D4F388100B8D9EF /* Sources */,
+				1F5FB3911D4F388100B8D9EF /* Frameworks */,
+				1F5FB3921D4F388100B8D9EF /* Resources */,
+				4FEA74FF79AABC8651E37D4D /* [CP] Embed Pods Frameworks */,
+				97CAAFDC7F2F9337381143A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTImageScrollViewDemo;
+			productName = DTImageScrollViewDemo;
+			productReference = 1F5FB3941D4F388100B8D9EF /* DTImageScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F5FB3881D4F383600B8D9EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					1F5FB3931D4F388100B8D9EF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F5FB38B1D4F383600B8D9EF /* Build configuration list for PBXProject "DTImageScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F5FB3871D4F383600B8D9EF;
+			productRefGroup = 1F5FB3951D4F388100B8D9EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F5FB3931D4F388100B8D9EF /* DTImageScrollViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F5FB3921D4F388100B8D9EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5FB3A21D4F388100B8D9EF /* LaunchScreen.storyboard in Resources */,
+				1F5FB39F1D4F388100B8D9EF /* Assets.xcassets in Resources */,
+				1F5FB39D1D4F388100B8D9EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FEA74FF79AABC8651E37D4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTImageScrollViewDemo/Pods-DTImageScrollViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97CAAFDC7F2F9337381143A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTImageScrollViewDemo/Pods-DTImageScrollViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A65A7256763A435F4ABDE174 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F5FB3901D4F388100B8D9EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5FB39A1D4F388100B8D9EF /* ViewController.swift in Sources */,
+				1F5FB3981D4F388100B8D9EF /* AppDelegate.swift in Sources */,
+				1F5FB3A81D4F389C00B8D9EF /* DTImageScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F5FB39B1D4F388100B8D9EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F5FB39C1D4F388100B8D9EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F5FB3A01D4F388100B8D9EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F5FB3A11D4F388100B8D9EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F5FB38C1D4F383600B8D9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1F5FB38D1D4F383600B8D9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		1F5FB3A51D4F388100B8D9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F633E7E25E5431BD11D13987 /* Pods-DTImageScrollViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = DTImageScrollViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daront.DTImageScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F5FB3A61D4F388100B8D9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0EF4663E30ABABB4ACA28A /* Pods-DTImageScrollViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = DTImageScrollViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daront.DTImageScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F5FB38B1D4F383600B8D9EF /* Build configuration list for PBXProject "DTImageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5FB38C1D4F383600B8D9EF /* Debug */,
+				1F5FB38D1D4F383600B8D9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F5FB3A41D4F388100B8D9EF /* Build configuration list for PBXNativeTarget "DTImageScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5FB3A51D4F388100B8D9EF /* Debug */,
+				1F5FB3A61D4F388100B8D9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F5FB3881D4F383600B8D9EF /* Project object */;
+}
