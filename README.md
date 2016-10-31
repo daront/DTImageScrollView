@@ -8,8 +8,8 @@ DTImageScrollView
 
 An easy way to display multiple network images in a standard paging-scrollview style.
 
-![](screenshot1.jpg)
-![](screenshot2.jpg)
+![](screenshot1.png)
+![](screenshot2.png)
                     
 ## Features
 * Display images from specified URLs
