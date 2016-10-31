@@ -1,10 +1,10 @@
 DTImageScrollView
 ===========
 
-[![Badge w/ Version](http://cocoapod-badges.herokuapp.com/v/DTImageScrollView/badge.png)](http://cocoadocs.org/docsets/Pulsator)
+[![Badge w/ Version](http://cocoapod-badges.herokuapp.com/v/DTImageScrollView/badge.png)](http://cocoadocs.org/docsets/DTImageScrollView)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
 )](http://mit-license.org)
-[![Platform](https://img.shields.io/cocoapods/p/DTImageScrollView.svg?style=flat)](http://cocoadocs.org/docsets/TOCropViewController)
+[![Platform](https://img.shields.io/cocoapods/p/DTImageScrollView.svg?style=flat)](http://cocoadocs.org/docsets/DTImageScrollView)
 
 An easy way to display multiple network images in a standard paging-scrollview style.
 
