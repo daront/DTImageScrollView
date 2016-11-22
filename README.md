@@ -15,10 +15,10 @@ An easy way to display multiple network images in a standard paging-scrollview s
 * Display images from specified URLs
 * Custom Placeholder image - while the image is loading
 * Show paging indicator while images are swiped
+* Automatically adjust images to fit the scrollview
 
 ## System Requirements
-iOS 8.0 or above
-Swift 2.0
+iOS 8.0+, Swift 3.0
 
 ## Installation
 
@@ -49,7 +49,7 @@ func numberOfImages() -> Int {
     return 3
 }
 
-func imageURLForIndex(index: Int) -> NSURL {
+func imageURL(index: Int) -> URL {
     return NSURL(string: "http://www.boxzeed.com/wp-content/uploads/2015/09/1.1.3.jpg")!
 }
 ```

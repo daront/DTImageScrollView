@@ -24,8 +24,8 @@ class ViewController: UIViewController, DTImageScrollViewDatasource {
         return 3
     }
     
-    func imageURLForIndex(index: Int) -> NSURL {
-        return NSURL(string: "http://www.boxzeed.com/wp-content/uploads/2015/09/1.1.3.jpg")!
+    func imageURL(index: Int) -> URL {
+        return URL(string: "http://www.boxzeed.com/wp-content/uploads/2015/09/1.1.3.jpg")!
     }
 }
 

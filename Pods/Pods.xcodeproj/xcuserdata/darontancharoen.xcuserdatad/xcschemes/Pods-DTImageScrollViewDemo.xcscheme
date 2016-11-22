@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C01CB362103290570BEE7B2FE0727F5C"
+               BlueprintIdentifier = "8D671DA5081AF26875AEB280212418E8"
                BuildableName = "Pods_DTImageScrollViewDemo.framework"
                BlueprintName = "Pods-DTImageScrollViewDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C01CB362103290570BEE7B2FE0727F5C"
+            BlueprintIdentifier = "8D671DA5081AF26875AEB280212418E8"
             BuildableName = "Pods_DTImageScrollViewDemo.framework"
             BlueprintName = "Pods-DTImageScrollViewDemo"
             ReferencedContainer = "container:Pods.xcodeproj">
