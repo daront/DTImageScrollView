@@ -20,6 +20,7 @@ open class DTImageScrollView: UIView, UIScrollViewDelegate {
     open let scrollView = UIScrollView()
     open let pageControl = UIPageControl()
     open var placeholderImage: UIImage?
+    open var imageViews = [UIImageView]()
     
     open weak var datasource: DTImageScrollViewDatasource?
     
@@ -53,6 +54,7 @@ open class DTImageScrollView: UIView, UIScrollViewDelegate {
         for view in self.scrollView.subviews {
             view.removeFromSuperview()
         }
+        self.imageViews.removeAll()
         
         // add photos to scrollView
         for index in 0..<self.datasource!.numberOfImages() {
@@ -65,6 +67,7 @@ open class DTImageScrollView: UIView, UIScrollViewDelegate {
             imageView.image = self.placeholderImage
             imageView.af_setImage(withURL: self.datasource!.imageURL(index: index))
             self.scrollView.addSubview(imageView)
+            self.imageViews.append(imageView)
             
             // add constraints
             // height

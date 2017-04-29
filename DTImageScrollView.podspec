@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DTImageScrollView"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "An easy way to create a swipable set of images with paging indicator."
   s.homepage     = "https://github.com/daront/DTImageScrollView"
   s.license      = "MIT"
