@@ -35,14 +35,13 @@ Then `$ pod install`
 ## How to use
 
 Drag a new view to your storyboard or interface builder. Change its class to DTImageScrollView.
-In `viewDidLoad()`, set the `datasource` and `placeholderImage`.
+In `viewDidLoad()`, set the `datasource` .
 
 ```swift
 self.imageScrollView.datasource = self
-self.imageScrollView.placeholderImage = UIImage(named: "placeholder")
 ```
 
-Implement 2 datasource functions
+Implement 3 datasource functions
 
 ```swift
 func numberOfImages() -> Int {
@@ -51,6 +50,14 @@ func numberOfImages() -> Int {
 
 func imageURL(index: Int) -> URL {
     return NSURL(string: "http://www.boxzeed.com/wp-content/uploads/2015/09/1.1.3.jpg")!
+}
+
+func placeholderImageFor(index:Int) -> UIImage {
+    if index == 0 {
+        return UIImage(named: "sample")!
+    } else {
+        return UIImage(named: "placeholder")!
+    }
 }
 ```
 
