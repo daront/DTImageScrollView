@@ -13,13 +13,13 @@ public protocol DTImageScrollViewDatasource: class {
     //func imageForIndex(index:Int) -> UIImage
     func imageURL(index:Int) -> URL
     func numberOfImages() -> Int
+    func placeholderImageFor(index:Int) -> UIImage
 }
 
 open class DTImageScrollView: UIView, UIScrollViewDelegate {
 
     open let scrollView = UIScrollView()
     open let pageControl = UIPageControl()
-    open var placeholderImage: UIImage?
     open var imageViews = [UIImageView]()
     
     open weak var datasource: DTImageScrollViewDatasource?
@@ -60,11 +60,10 @@ open class DTImageScrollView: UIView, UIScrollViewDelegate {
         for index in 0..<self.datasource!.numberOfImages() {
             let imageView = UIImageView()
             imageView.tag = index+1
-            imageView.image = self.placeholderImage
             imageView.contentMode = .scaleAspectFill
             imageView.clipsToBounds = true
             imageView.translatesAutoresizingMaskIntoConstraints = false
-            imageView.image = self.placeholderImage
+            imageView.image = self.datasource!.placeholderImageFor(index: index)
             imageView.af_setImage(withURL: self.datasource!.imageURL(index: index))
             self.scrollView.addSubview(imageView)
             self.imageViews.append(imageView)

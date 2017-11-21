@@ -16,7 +16,6 @@ class ViewController: UIViewController, DTImageScrollViewDatasource {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.imageScrollView.datasource = self
-        self.imageScrollView.placeholderImage = UIImage(named: "placeholder")
         self.imageScrollView.show()
     }
 
@@ -26,6 +25,14 @@ class ViewController: UIViewController, DTImageScrollViewDatasource {
     
     func imageURL(index: Int) -> URL {
         return URL(string: "http://www.boxzeed.com/wp-content/uploads/2015/09/1.1.3.jpg")!
+    }
+    
+    func placeholderImageFor(index:Int) -> UIImage {
+        if index == 0 {
+            return UIImage(named: "sample")!
+        } else {
+            return UIImage(named: "placeholder3")!
+        }
     }
 }
 
